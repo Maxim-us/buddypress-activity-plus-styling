@@ -1,5 +1,6 @@
 jQuery( document ).ready( function( $ ){
 
+	// each wrapper image
 	$( '.bpfb_images' ).each( function(){
 
 		// declared var
@@ -30,10 +31,19 @@ jQuery( document ).ready( function( $ ){
 
 		bpfb_images_wrap.addClass( 'mx_count_images-' + bpfb_length_images );
 
-		// console.log( bpfb_length_images );
-
 	} );
 
-	
+	// each wrapper link
+	$( '.bpfb_final_link' ).each( function(){
+
+		var bpfb_length_thunb = $( this ).find( '.bpfb_link_preview_container' ).length;
+
+		if( bpfb_length_thunb === 0 ){
+
+			$( this ).find( '.bpfb_link_contents' ).css( 'width', '100%' );
+
+		}
+
+	} );
 
 } );

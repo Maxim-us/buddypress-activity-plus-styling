@@ -6,7 +6,9 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 class MXAPSFrontEndMain
 {
 
-	// Register function
+	/*
+	* Registration of styles and scenarios
+	*/
 	public function register()
 	{
 
@@ -27,8 +29,12 @@ class MXAPSFrontEndMain
 
 }
 
-// Initialize
+/*
+* Initialize
+*/
 $initialize_class = new MXAPSFrontEndMain();
 
-// Apply scripts and styles
+/*
+* Apply scripts and styles
+*/
 $initialize_class->register();
