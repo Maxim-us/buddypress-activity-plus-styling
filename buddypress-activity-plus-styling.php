@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Buddypress Activity Plus Styling
-Plugin URI: https://github.com/Maxim-us/buddypress_activity_plus_styling
+Plugin URI: https://github.com/Maxim-us/buddypress-activity-plus-styling
 Description: Add to the Buddypress Activity Plus plugin. This plugin adds CSS styles to images, videos and links. Also styling a THICKBOX.
 Author: Marko Maksym
 Version: 1.0
