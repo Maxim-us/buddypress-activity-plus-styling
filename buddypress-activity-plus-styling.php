@@ -25,7 +25,7 @@ if ( ! defined( 'MXAPS_PLUGIN_PATH' ) ) {
 */
 if ( ! defined( 'MXAPS_PLUGIN_URL' ) ) {
 
-	// Return http://my-domain.com/wp-content/plugins/buddypress-activity-plus_styling/
+	// Return http://my-domain.com/wp-content/plugins/buddypress-activity-plus-styling/
 	define( 'MXAPS_PLUGIN_URL', plugins_url( '/', __FILE__ ) );
 
 }

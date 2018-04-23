@@ -21,9 +21,9 @@ class MXAPSFrontEndMain
 
 			wp_enqueue_style( 'mxaps_font_awesome', MXAPS_PLUGIN_URL . 'assets/font-awesome-4.6.3/css/font-awesome.min.css' );
 
-			wp_enqueue_style( 'mxaps_style', MXAPS_PLUGIN_URL . 'includes/frontend/assets/css/mxaps_style.css', array( 'mxaps_font_awesome' ), MXAPS_PLUGIN_VERSION, 'all' );
+			wp_enqueue_style( 'mxaps_style', MXAPS_PLUGIN_URL . 'includes/frontend/assets/css/mxaps_style.css', array( 'mxaps_font_awesome', 'thickbox' ), MXAPS_PLUGIN_VERSION, 'all' );
 
-			wp_enqueue_script( 'mxaps_script', MXAPS_PLUGIN_URL . 'includes/frontend/assets/js/mxaps_style.js', array( 'jquery' ), MXAPS_PLUGIN_VERSION, false );
+			wp_enqueue_script( 'mxaps_script', MXAPS_PLUGIN_URL . 'includes/frontend/assets/js/mxaps_style.js', array( 'jquery', 'thickbox' ), MXAPS_PLUGIN_VERSION, false );
 
 		}
 

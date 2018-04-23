@@ -20,20 +20,21 @@ Add to the Buddypress Activity Plus plugin. This plugin adds CSS styles to image
 1. Visit 'Plugins > Add New'
 2. Search for 'Buddypress Activity Plus Styling'
 3. Activate the plugin from your Plugins page.
-4. Then on the items of your activity stream in the upper right corner there will be buttons. These buttons attach and detach the elements.
+4. Then the style of uploaded photos, using the Buddypress Activity Plus plugin, will change.
 
 = From WordPress.org =
 
 1. Download 'Buddypress Activity Plus Styling'.
 2. Upload the 'Buddypress Activity Plus Styling' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)
-3. Activate 'Attach element from activity' from your Plugins page.
-4. Then on the items of your activity stream in the upper right corner there will be buttons. These buttons attach and detach the elements.
+3. Activate 'Buddypress Activity Plus Styling' from your Plugins page.
+4. Then the style of uploaded photos, using the Buddypress Activity Plus plugin, will change.
 
 == Screenshots ==
 
-1. ...
-2. ...
-3. ...
+1. Three images before and after the plugin installation.
+2. Four images before and after the plugin installation.
+3. Stylish THICKBOX.
+4. A block style consisting of ten images.
 
 == Changelog ==
 

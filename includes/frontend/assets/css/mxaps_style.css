@@ -1,6 +1,12 @@
+#TB_closeWindowButton{
+  background: transparent !important;
+}
+#TB_closeWindowButton:hover{
+  background: transparent !important;
+}
 /*images*/
 #buddypress .bpfb_images br{
-    display: none;
+  display: none;
 }
 #buddypress .bpfb_images{
   display: -webkit-flex;
@@ -118,9 +124,21 @@
 #buddypress .bpfb_final_link .bpfb_link_preview_container{
   width: 28%;
   height: auto;
+  overflow: hidden;
+  float: left;
 }
 #buddypress .bpfb_final_link .bpfb_link_contents{
   width: 70%;
+  float: left;
+  margin-left: 10px;
+}
+.bpfb_link_preview_title {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.bpfb_link_preview_url {
+  color: #666;
+  font-size: .8em;
 }
 
 /*styling thickbox*/
