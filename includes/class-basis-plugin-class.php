@@ -3,7 +3,7 @@
 // Exit if accessed directly
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-class MXAPSBasisPluginClass
+class BAPSABasisPluginClass
 {
 
 	public static function activate()
@@ -19,7 +19,7 @@ class MXAPSBasisPluginClass
 	public static function uninstall()
 	{
 
-		if ( MXAPS__FILE__ != WP_UNINSTALL_PLUGIN ) {
+		if ( BAPSA__FILE__ != WP_UNINSTALL_PLUGIN ) {
 
 			return;
 

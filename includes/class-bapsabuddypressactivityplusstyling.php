@@ -3,11 +3,11 @@
 // Exit if accessed directly
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-final class MxActivityPlusStyling
+final class BAPSActivityPlusStyling
 {
 
 	/*
-	* MxActivityPlusStyling constructor
+	* BAPSActivityPlusStyling constructor
 	*/
 	public function __construct()
 	{
@@ -19,16 +19,16 @@ final class MxActivityPlusStyling
 	}
 
 	/*
-	* Define MXAPS constants
+	* Define BAPSA constants
 	*/
 	public function define_constants()
 	{
 
 		// include php files
-		$this->define( 'MXAPS_PLUGIN_ABS_PATH', dirname( MXAPS_PLUGIN_PATH ) . '/' );
+		$this->bapsa_define( 'BAPSA_PLUGIN_ABS_PATH', dirname( BAPSA_PLUGIN_PATH ) . '/' );
 
 		// version
-		$this->define( 'MXAPS_PLUGIN_VERSION', '1.0' );
+		$this->bapsa_define( 'BAPSA_PLUGIN_VERSION', '1.0' );
 
 	}
 
@@ -39,17 +39,17 @@ final class MxActivityPlusStyling
 	{
 
 		// Basis functions
-		require_once MXAPS_PLUGIN_ABS_PATH . 'includes/class-basis-plugin-class.php';
+		require_once BAPSA_PLUGIN_ABS_PATH . 'includes/class-basis-plugin-class.php';
 
 		// Part of the Frontend
-		require_once MXAPS_PLUGIN_ABS_PATH . 'includes/frontend/class-frontend-main.php';
+		require_once BAPSA_PLUGIN_ABS_PATH . 'includes/frontend/class-frontend-main.php';
 
 	}
 
 	/*
 	* Define function
 	*/
-	private function define( $mame, $value )
+	private function bapsa_define( $mame, $value )
 	{
 
 		if( ! defined( $mame ) )
