@@ -14,7 +14,7 @@ final class BAPSActivityPlusStyling
 
 		$this->define_constants();
 
-		$this->include();
+		$this->bapsa_include();
 
 	}
 
@@ -35,7 +35,7 @@ final class BAPSActivityPlusStyling
 	/*
 	* Incude required core files
 	*/
-	public function include()
+	public function bapsa_include()
 	{
 
 		// Basis functions

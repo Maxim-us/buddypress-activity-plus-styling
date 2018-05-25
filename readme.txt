@@ -40,3 +40,6 @@ Add to the Buddypress Activity Plus plugin. This plugin adds CSS styles to image
 
 = 1.0 =
 * Additional CSS styles for the Buddypress Activity Plus plugin and THICKBOX.
+
+= 1.1 =
+* Fixed Parse error: syntax error, unexpected 'include' (T_INCLUDE), expecting identifier (T_STRING) in /wp-content/plugins/bp-activity-plus-styling/includes/class-bapsabuddypressactivityplusstyling.php on line 38
