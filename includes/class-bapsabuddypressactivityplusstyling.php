@@ -42,6 +42,9 @@ final class BAPSActivityPlusStyling
 		require_once BAPSA_PLUGIN_ABS_PATH . 'includes/class-basis-plugin-class.php';
 
 		// Part of the Frontend
+		require_once BAPSA_PLUGIN_ABS_PATH . 'includes/admin/class-admin-main.php';
+
+		// Part of the Frontend
 		require_once BAPSA_PLUGIN_ABS_PATH . 'includes/frontend/class-frontend-main.php';
 
 	}

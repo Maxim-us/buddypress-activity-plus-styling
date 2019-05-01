@@ -2,8 +2,8 @@
 Contributors: markomaksym
 Tags: BuddyPress, Activity, Activity Stream, BuddyPress Activity, Wall, Embed, Media, Youtube, Photos, Social Network, Social Networking, Embed Video, Embed Link, Upload Photo, Upload Photos, Share Media, Sharing Media, Social Network Wall, Social Media, thickbox
 Requires at least: 4.3
-Tested up to: 4.9
-Stable tag: 1.0
+Tested up to: 5.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,10 +36,16 @@ Add to the Buddypress Activity Plus plugin. This plugin adds CSS styles to image
 3. Stylish THICKBOX.
 4. A block style consisting of ten images.
 
+= 1.1.1 =
+
+Fixed bug when activating plugin "Buddypress Activity Plus Styling"
+
 == Changelog ==
 
-= 1.0 =
-* Additional CSS styles for the Buddypress Activity Plus plugin and THICKBOX.
+= 1.1.1 =
 
-= 1.1 =
-* Fixed Parse error: syntax error, unexpected 'include' (T_INCLUDE), expecting identifier (T_STRING) in /wp-content/plugins/bp-activity-plus-styling/includes/class-bapsabuddypressactivityplusstyling.php on line 38
+Fixed bug when activating plugin "Buddypress Activity Plus Styling"
+
+= 1.1.2 =
+
+Added requirement notification
